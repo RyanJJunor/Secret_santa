@@ -1,0 +1,64 @@
+#grid {
+    -fx-background-image: url("../pictures/giphy.gif");
+    -fx-background-size: cover, auto;
+    -fx-background-repeat: no-repeat;
+}
+
+#btn {
+
+    -fx-pref-width: 200px;
+    -fx-pref-height: 75px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 11px;
+ 
+    /*
+    -fx-effect: dropshadow(gaussian, maroon, 10, .3, 5, 5);
+    */
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(255, 0, 0, 09), rgba(255, 255, 255, .75) 40%, rgba(255, 255, 255, .75) 60%, rgba(255, 0, 0, 0.9) 100%);
+    -fx-start-margin: 5,5,5,5;
+}
+
+#btnEnter{
+
+    -fx-pref-width: 200px;
+    -fx-pref-height: 75px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 11px;
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(200, 0, 0, 09), rgba(200, 200, 200, .75) 40%, rgba(200, 200, 200, .75) 60%, rgba(200, 0, 0, 0.9) 100%);
+    -fx-start-margin: 5,5,5,5;
+
+}
+
+.alert {
+    -fx-background-image: url("../pictures/giphy.gif");
+	-fx-background-size: cover, auto;
+	-fx-background-repeat: no-repeat;
+	-fx-graphic: url("../pictures/secretsantasmall.png");
+}
+
+.alert:header .header-panel {
+    -fx-background-image: url("../pictures/giphy.gif");
+	-fx-background-size: cover, auto;
+	-fx-background-repeat: no-repeat;
+    -fx-font-smoothing-type: gray;
+    
+}
+
+
+.alert > *.label.content{
+	
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 12px;
+    }
+    
+
+.alert:header .label{
+	-fx-text-fill: white;
+    -fx-font-family: "Arial Rounded MT Bold";
+	-fx-font-size: 20px;
+}
+
+

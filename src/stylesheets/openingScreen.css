@@ -1,0 +1,30 @@
+#grid {
+    -fx-background-image: url("../pictures/giphy.gif");
+    -fx-background-size: cover, auto;
+    -fx-background-repeat: no-repeat;
+}
+
+#btn{
+   /* -fx-padding: 100 100 100 100; */
+
+    -fx-pref-width: 250px;
+    -fx-pref-height: 200px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 35px;
+   /* -fx-effect: dropshadow(gaussian, maroon, 25, .3, 10, 10);*/
+   
+    -fx-background-radius: 25;
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgba(255, 0, 0, 09), rgba(255, 255, 255, .75) 40%, rgba(255, 255, 255, .75) 60%, rgba(255, 0, 0, 0.9) 100%);
+    
+}
+
+#btnEnter{
+    -fx-pref-width: 250px;
+    -fx-pref-height: 200px;
+    -fx-font-family: "Arial Rounded MT Bold";
+    -fx-font-size: 35px;
+    /*-fx-effect: dropshadow(gaussian, #6e0000, 25, .3, 10, 10);*/
+    -fx-background-radius: 25;
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, rgb(200,0,0), rgba(200,200,200,0.75) 40%, rgba(200,200,200,0.75) 60%, rgba(200,0,0,0.9) 100%);
+	
+}
